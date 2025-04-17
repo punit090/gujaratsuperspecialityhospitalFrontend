@@ -1,0 +1,643 @@
+/* /// header   ===>  */
+@import "~@flaticon/flaticon-uicons/css/all/all";
+body {
+  overflow: hidden;
+}
+.wsmainfull {
+  transition: all 0.3s ease;
+}
+
+.wsmainfull.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: 100px;
+  padding: 35px 0px;
+}
+.dropbtn.sticky {
+  color: #e31e24;
+}
+.appointemntLink.sticky {
+    padding: 15px;
+    background-color: #393185;
+}
+.hero-widget {
+  /* padding: 15px 0; */
+  border-bottom: 1px solid #eee;
+}
+.header-widget p {
+  font-size: 14px;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+.wsmainfull {
+  width: 100%;
+  height: 70px;
+  background-color: #393185;
+  z-index: 999;
+  -webkit-box-shadow: 0 2px 3px rgba(96, 96, 96, 0.1);
+  -moz-box-shadow: 0 2px 3px rgba(96, 96, 96, 0.1);
+  box-shadow: 0 2px 3px rgba(96, 96, 96, 0.1);
+  -webkit-transition: all 450ms ease-in-out;
+  -moz-transition: all 450ms ease-in-out;
+  -o-transition: all 450ms ease-in-out;
+  -ms-transition: all 450ms ease-in-out;
+  transition: all 450ms ease-in-out;
+  padding: 20px;
+}
+.txt-400 {
+  font-weight: 400;
+}
+.header-widget p {
+  font-size: 14px;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+.lightgrey-color span,
+.has-lightgrey-color.has-text-color,
+.lightgrey-icon [class^="ti-"],
+.lightgrey-icon [class*=" ti-"],
+.lightgrey-color-icon [class^="ti-"],
+.lightgrey-color-icon [class*=" ti-"],
+.lightgrey-nav .slick-prev::before,
+.lightgrey-nav .slick-next::before,
+.navbar.lightgrey-hover .navbar-nav .nav-link:focus,
+.navbar.lightgrey-hover .navbar-nav .nav-link:hover,
+.modal-video .lightgrey-color,
+.lightgrey-color,
+.lightgrey-color h2,
+.lightgrey-color h3,
+.lightgrey-color h4,
+.lightgrey-color h5,
+.lightgrey-color h6,
+.lightgrey-color p,
+.lightgrey-color a,
+.lightgrey-color li,
+.lightgrey-color i,
+.white-color .lightgrey-color,
+.pbox-icon [class*="flaticon-"].lightgrey-color:before,
+span.section-id.lightgrey-color,
+.lightgrey-color p {
+  color: #858585;
+}
+
+.dropbtn {
+  color: white;
+  /* padding: 16px; */
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 250px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #393185;
+  color: #fff;
+  transition: 0.5s;
+  padding: 8px 15px 8px 23px;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.headerMainDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.appointemntLink {
+  background: #e31e24;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+}
+.appointemntLink:hover {
+  background-color: #9a0005;
+}
+
+/* Baner section    ===== >  */
+
+.banner-slider-main-div {
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.bannerTitle {
+  white-space: nowrap;
+  font-size: 53px;
+  line-height: 53px;
+  font-weight: 900;
+  color: rgb(124, 58, 70);
+  letter-spacing: 0px;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  visibility: inherit;
+  transition: none;
+  text-align: inherit;
+  border-width: 0px;
+  margin: 0px;
+  padding: 0px;
+  min-height: 0px;
+  min-width: 0px;
+  max-height: none;
+  max-width: none;
+  opacity: 1;
+  transform-origin: 50% 50% 0px;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+}
+.bannerSubTitle {
+  z-index: 7;
+  white-space: nowrap;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  color: rgb(124, 58, 70);
+  letter-spacing: 0px;
+  font-family: "Open", sans-serif;
+  cursor: pointer;
+  visibility: inherit;
+  transition: none;
+  text-align: inherit;
+  border-width: 0px;
+  margin: 20px 0px;
+  padding: 10px 0px;
+  min-height: 0px;
+  min-width: 0px;
+  max-height: none;
+  max-width: none;
+  opacity: 1;
+  transform-origin: 50% 50% 0px;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+}
+.bannerMain {
+  position: absolute;
+  top: 150px;
+  left: 280px;
+}
+.bookAppointmentLink {
+  white-space: nowrap;
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(46, 49, 145);
+  border-color: rgb(0, 0, 0);
+  border-radius: 3px;
+  outline: none;
+  box-shadow: rgb(153, 153, 153) 0px 0px 0px 0px;
+  box-sizing: border-box;
+  cursor: pointer;
+  visibility: inherit;
+  transition: none;
+  text-align: inherit;
+  margin-top: 10px;
+  padding: 12px 35px;
+}
+.nextArrow {
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+  font-size: 35px;
+  color: rgb(0 0 0 / 50%);
+}
+.nextArrow:hover,
+.prevArrow:hover {
+  color: #000 !important;
+  cursor: pointer;
+}
+.prevArrow {
+  position: absolute;
+  left: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+  font-size: 35px;
+  color: rgb(0 0 0 / 50%);
+}
+.bookAppointmentLink:hover {
+  background-color: red;
+}
+
+/* ////// about section =====>  */
+
+.bg-lightgrey {
+  background-color: #f8f9fb;
+}
+
+a {
+  text-decoration: none !important;
+}
+.pt-100 {
+  padding-top: 100px;
+}
+img {
+  width: 100%;
+}
+.aboutTitle {
+  font-size: 0.825rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  display: block;
+  letter-spacing: 0.5px;
+  margin-bottom: 28px;
+  color: #393185;
+}
+.aboutSubTitle {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  width: 480px;
+  color: #393185;
+  margin-bottom: 8px;
+}
+.knowMoreBtn {
+  background-color: #e7373d;
+  color: #ffffff;
+  font-size: 14px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  border: none;
+}
+.aboutCol {
+  padding: 0px 40px;
+}
+.aboutRow {
+  align-items: center;
+}
+.amenities {
+  padding: 60px 0px;
+}
+.amenitiesTitle {
+  font-size: 42px;
+  text-align: center;
+  font-weight: 700;
+  color: #393185;
+  font-family: "roboto", sans-serif;
+  margin-bottom: 20px;
+}
+.logoImg {
+  width: 300px;
+  height: 100px;
+}
+.amenitiesImg {
+  width: 70px;
+}
+.amenitiesText {
+  text-align: center;
+}
+.amenitiesText a {
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+.ImgDiv {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+/* Over Team ---- >  */
+.teamTitle {
+  color: #393185;
+  font-weight: 700;
+}
+.viewProfile {
+  background: #393185;
+  padding: 10px;
+  color: white;
+  display: inline-block;
+  border-radius: 5px;
+  border: none;
+}
+
+/* specialtis    ====> */
+
+.specialtisMainDiv {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.specialtiesTitle {
+  background: #db343a;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  display: block;
+  font-size: 14px;
+}
+
+/* ///// Reviews section =====>  */
+
+.riewviewsImg {
+  width: 190px;
+  height: 90px;
+}
+.reieviewsDiv {
+  display: flex;
+  justify-content: center;
+}
+.reviewsDesc {
+  color: #888;
+  padding: 0 27%;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.reviewsMainDiv {
+  background: #f8f9fb;
+}
+.wprevpro_t1_DIV_1 {
+  box-sizing: border-box;
+  color: #777;
+  text-size-adjust: 100%;
+  column-rule-color: #fff;
+  perspective-origin: 277.5px 115px;
+  transform-origin: 277.5px 115px;
+  border: 0 none #fff;
+  font: normal normal normal normal 13px / 20.8px "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  outline: #fff none 0;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.wprevpro_t1_DIV_2 {
+  bottom: 0;
+  box-shadow: rgba(0, 0, 0, 0.09) 2px 2px 3px 0;
+  box-sizing: border-box;
+  color: #777;
+  height: auto;
+  left: 0;
+  position: relative;
+  right: 0;
+  text-size-adjust: 100%;
+  top: 0;
+  column-rule-color: #fff;
+  perspective-origin: 277.5px 69px;
+  transform-origin: 277.5px 69px;
+  background: #fff none repeat scroll 0 0 / auto padding-box border-box;
+  border: 1px solid #f5f5f5;
+  font: italic normal normal normal 14px / 22.4px "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  margin: 0 0 25px;
+  outline: #fff none 0;
+  padding: 20px 25px 20px 48px;
+}
+.wprevpro_t1_DIV_2:after {
+  bottom: -30px;
+  box-sizing: border-box;
+  color: #fff;
+  content: "";
+  display: block;
+  height: 30px;
+  left: 80px;
+  position: absolute;
+  right: 445px;
+  text-size-adjust: 100%;
+  width: 30px;
+  column-rule-color: #fff;
+  perspective-origin: 15px 15px;
+  transform-origin: 15px 15px;
+  filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.0980392));
+  border-top: 30px solid #fff;
+  border-right: 30px solid transparent;
+  border-bottom: 0 solid transparent;
+  border-left: 0 solid transparent;
+  font: normal normal normal normal 13px / 20.8px "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  outline: #fff none 0;
+}
+.wprevpro_t1_IMG_4 {
+  width: 50px;
+}
+.wprevpro_t1_SPAN_5 {
+  color: #555;
+  display: block;
+  text-size-adjust: 100%;
+  text-transform: uppercase;
+  overflow: hidden;
+  padding: 8px 0 0;
+}
+.revimgdiv {
+  display: flex;
+  gap: 20px;
+  margin-left: 20px;
+}
+.nextArrowNew {
+  position: absolute;
+  right: -33px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+  font-size: 35px;
+  color: rgb(0 0 0 / 20%);
+}
+.quotessLeft {
+  font-size: 25px;
+  color: #bbb;
+  position: absolute;
+  left: 15px;
+}
+.starIcon {
+  font-size: 18px;
+  color: #f8c200;
+}
+
+/* //////// kidenyBanner section =====>  */
+.kidenyBanner {
+  background: url(../img/Dialysis-desk-01.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 390px;
+}
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+/* //// over story section ====>  */
+
+.sotriesDesc {
+  padding: 0 30% !important ;
+}
+
+.blogDesc {
+  font-size: 19px;
+  font-weight: 700;
+  color: #393185;
+}
+.blogDate {
+  font-size: 15px;
+  font-weight: 500;
+  color: #393185;
+}
+.blogDate span {
+  font-size: 14px;
+  color: #a3a3a3;
+}
+.blogSubDesc {
+  font-size: 14px;
+  font-weight: 500;
+  color: #393185;
+  padding-bottom: 10px;
+}
+.blogShortDesc {
+  font-size: 15px;
+  font-weight: 300;
+  color: #333;
+  padding-bottom: 10px;
+}
+.moreDetailsLink {
+  font-size: 16px;
+  font-weight: 700;
+  color: #393185;
+  text-decoration: underline !important;
+}
+.blogImg {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+.readMoreLink {
+  padding: 12px 24px;
+  background-color: #393185;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  font-size: 16px;
+}
+.readMorDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+/* //// emergencySection ====>  */
+
+.emergencySection {
+  background-image: url(../img/Emergency-bg-Resize.jpg);
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.emergencySectionIcon {
+  font-size: 60px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.emergencyTitle {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+.emergencySubTitle {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+}
+.callTitle {
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+}
+
+/* /////// foter section ====>  */
+.mainFooterDiv {
+  padding-top: 100px;
+  padding-bottom: 40px;
+  background-color: #ccc;
+}
+.locationTitle {
+  font-size: 19px;
+  font-weight: 700;
+  color: #393185;
+  margin-bottom: 15px;
+}
+.loactionDesc {
+  font-size: 15px;
+  font-weight: 300;
+  color: #787878;
+  line-height: 25px;
+  margin-bottom: 0px;
+}
+.workingHourDiv {
+  padding: 40px 0px;
+}
+.ReadMoreLink {
+  background: #393185;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-top: 15px;
+}
+.readMoreDiv {
+  padding-top: 20px;
+}
+.shareIcon {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #393185;
+}
+.hospitalIcon {
+  height: 30px;
+  width: 30px;
+}
+.copyrightDiv {
+  font-size: 16px;
+  font-weight: 300;
+  color: #787878;
+}
+.footerBottomDiv {
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+  padding-top: 40px;
+}
+.clockIconDIv {
+  display: flex;
+  gap: 10px;
+}

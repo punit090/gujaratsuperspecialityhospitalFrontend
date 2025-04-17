@@ -1,0 +1,234 @@
+#breadcrumb {
+  background-position: center center;
+}
+.bg-lightgrey {
+  background-color: #f8f9fb;
+}
+.breadcrumb-holder {
+  padding-top: 40px;
+  padding-bottom: 45px;
+}
+.breadcrumbTitle {
+  color: #393185;
+  font-size: 40px;
+  font-weight: 700;
+}
+.inerBannerImg {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 40px;
+}
+.steelblue-color-color {
+  color: #393185;
+}
+.innerTitle {
+  font-weight: 700;
+}
+h5 {
+  font-weight: 700;
+}
+.p-left-30 {
+  padding-left: 30px;
+}
+.mb-50 {
+  margin-bottom: 50px;
+}
+#sidebar h5.h5-sm {
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #ddd;
+}
+.dept_treatment_listitem {
+  background-color: #f8f8f8;
+  color: #333;
+  border-right: 2px solid #eb5b60;
+  border-bottom: 1px dotted #dadada;
+}
+
+.dept_treatment_listitem > a {
+  padding: 5px 12px;
+  display: block;
+  box-sizing: border-box;
+  border: solid transparent;
+  position: relative;
+}
+.dept_treatment_list{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.pb-40 {
+  padding-bottom: 40px;
+}
+.statcontainer {
+  border: 2px solid #393185;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.statnumbercontainer {
+  width: 100px;
+  text-align: center;
+  border-right: 2px solid #393185;
+  height: 75px;
+}
+.statdesc {
+  padding-left: 20px;
+  vertical-align: middle;
+  color: #393185;
+  font-weight: 400;
+}
+span.statnumber {
+  color: #e7373d;
+  font-weight: bold;
+  font-size: 40px;
+  vertical-align: middle;
+}
+.aboutCounter {
+  padding: 30px 0px;
+}
+.visionMissionRow {
+  padding: 60px 0px 40px;
+}
+.missionTitle {
+  font-weight: bold;
+  color: #393185;
+  font-size: 1.25rem;
+}
+.missionMainDiv {
+  display: flex;
+  gap: 10px;
+}
+.missionMainDiv img {
+  width: 100px;
+  height: 100px;
+}
+.valueRow {
+  padding: 40px 0px;
+  background-color: #f8f9fb;
+  margin-bottom: 20px;
+}
+.patientImg {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #393185;
+}
+.valueCol {
+  display: flex;
+  justify-content: center;
+}
+.valueTitle {
+  text-align: center;
+  color: #393185;
+}
+
+.ourSpecialist {
+  background-color: #393185;
+}
+.specialistImg {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.speciallistTitle {
+  font-size: 0.825rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  display: block;
+  letter-spacing: 0.5px;
+  margin-bottom: 28px;
+  color: #fff;
+}
+.sepeciallistSubTitle {
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.btn-tra-white,
+.white-color .btn-tra-white {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+  border: 2px solid #fff;
+  margin-right: 10px;
+}
+.btn-tra-white:hover {
+  background-color: #fff !important;
+  color: initial !important;
+}
+.amenitiesDiv {
+  padding: 60px 0px;
+  background-color: #fff;
+}
+.amenitiesCard {
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #cccccc;
+  margin-bottom: 30px;
+}
+.anmitiesTitle {
+  font-weight: 500;
+  text-align: center;
+}
+
+.amenitiesImgDiv {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+
+
+.animetiesDiv{
+    display: flex;
+    justify-content: center;
+}
+.animetiesDiv a{
+    font-size: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #393185;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.bg-lightgrey {
+    background-color: #f8f9fb;
+}
+.amenitiesMainDiv{
+    padding: 60px 0px;
+}
+.icuImg{
+    width: 70px;
+}
+.icuMainDiv{
+    display: flex;
+    justify-content: center;
+}
+.IcusetionMainDiv{
+    padding-top: 40px;
+}
+.carerMainDiv{
+    background-image: url(../img/hero-4.jpg);
+}
+.box-lists{
+    list-style: circle;
+    margin: 0px;
+    padding: 15px;
+}
+.formCard {
+    background: rgba(255, 255, 255, 0.7);
+    border: 5px solid #393185;
+    border-style: none;
+    box-shadow: 0 0 5px #393185;
+    /* margin: 8px; */
+   padding: 20px;
+}
