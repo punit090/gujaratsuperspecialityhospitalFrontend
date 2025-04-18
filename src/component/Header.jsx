@@ -104,8 +104,8 @@ const Header = () => {
                     About <FaCaretDown />
                   </Link>
                   <div className="dropdown-content">
-                    <a href="/AboutUs">About Us</a>
-                    <a href="/Amenities">Amenities</a>
+                    <a href="/aboutUs">About Us</a>
+                    <a href="/amenities">Amenities</a>
                   </div>
                 </div>
                 <div className="dropdown">
@@ -118,7 +118,7 @@ const Header = () => {
                     Center of Excellence <FaCaretDown />
                   </Link>
                   <div className="dropdown-content">
-                    <a href="/ComanInerPages">Urology</a>
+                    <a href="/comanInerPages">Urology</a>
                     <a href="#">Nephrology</a>
                     <a href="#">Cardiology</a>
                     <a href="#">Orthopedics & Joint Replacement</a>
@@ -159,9 +159,9 @@ const Header = () => {
                     Patient Corner <FaCaretDown />
                   </Link>
                   <div className="dropdown-content">
-                    <a href="/GeneralInformation">General-Information</a>
-                    <a href="#">Blogs / Events</a>
-                    <a href="#">Videos</a>
+                    <a href="/generalInformation">General-Information</a>
+                    <a href="/blog">Blogs / Events</a>
+                    <a href="/videos">Videos</a>
                     <a href="#">Testimonials</a>
                   </div>
                 </div>
